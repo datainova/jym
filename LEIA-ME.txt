@@ -1,0 +1,36 @@
+SITE DA APRESENTAÇÃO — JYM CÂMARA FRIA
+DataInova · setembro de 2026
+
+PARA PUBLICAR
+  Abra o Terminal nesta pasta e rode:
+
+      bash publicar.sh
+
+  O script cria o repositório datainova/jym, envia os arquivos e liga o
+  GitHub Pages. No fim ele imprime o endereço.
+
+  Precisa do GitHub CLI logado:
+      brew install gh
+      gh auth login
+
+O ENDEREÇO FINAL
+  https://datainova.github.io/jym/
+
+O QUE ESTÁ AQUI
+  index.html          a página que eles abrem, com os links
+  apresentacao.html   os 18 slides (setas navegam, F = tela cheia)
+  sistema-web.html    protótipo do módulo de gestão
+  app-tablet.html     protótipo do app do conferente
+  app-celular.html    o mesmo app em tela cheia, para o celular
+  fluxograma.html     o processo desenhado
+  robots.txt          impede que buscadores indexem o endereço
+
+OBSERVAÇÕES
+  · Todas as páginas têm noindex: não aparecem no Google.
+  · O endereço é público — quem tiver o link abre. Mande só para eles.
+  · A apresentação contém o valor do projeto (slide 17).
+  · A proposta comercial e a análise NÃO estão aqui, de propósito.
+    Essas duas vão por e-mail, como anexo.
+
+PARA ATUALIZAR DEPOIS
+  Troque os arquivos e rode publicar.sh de novo.
